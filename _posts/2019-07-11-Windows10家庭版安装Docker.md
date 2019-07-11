@@ -23,9 +23,9 @@ author-id: wangbingzhi
 
 7. 【阿里云镜像源的使用】登陆注册阿里云，然后登陆后右上角有一个控制台三个字，点击进入，然后在产品部分看到弹性计算，然后选择 容器镜像服务，然后选择镜像加速器
 
-   ![]("/assets/article imgs/docker tutorial/aliyunmirror2.jpg")
+   ![]({{"/assets/article imgs/docker tutorial/aliyunmirror2.jpg" | relative_url}})
 
-8. 阿里云镜像源的配置】按照下面红圈命令行创建一个带有阿里云镜像源地址的虚拟机，最后一个字段default是虚拟机名字，因为在启动docker的时候会自动创建一个名为default的虚拟机，所以如果使用相同的名字创建会提示已经存在一个相同名字的虚拟机，要做的事就是把最后虚拟机名字改一下，然后使用ssh链接修改后的虚拟机就可以，docker使用ssh命令如下，```docker-machine ssh 虚拟机名字```![]("/assets/article imgs/docker tutorial/aliyunmirror3.jpg")
+8. 阿里云镜像源的配置】按照下面红圈命令行创建一个带有阿里云镜像源地址的虚拟机，最后一个字段default是虚拟机名字，因为在启动docker的时候会自动创建一个名为default的虚拟机，所以如果使用相同的名字创建会提示已经存在一个相同名字的虚拟机，要做的事就是把最后虚拟机名字改一下，然后使用ssh链接修改后的虚拟机就可以，docker使用ssh命令如下，```docker-machine ssh 虚拟机名字```![]({{"/assets/article imgs/docker tutorial/aliyunmirror3.jpg" | relative_url}})
 
 9.  【Docker容器重新启动】在关闭计算机或是关闭了Docker服务后，如果是容器没有设置为自动启动，那么就需要自己使用命令手动启动，如：
 
