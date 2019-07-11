@@ -14,11 +14,11 @@ layout: page
 {% endfor %}
 
 <!-- cycles through portfolio collection to get tags -->
-{% assign portfolio =  site.portfolio | map: 'tags' | join: ','  | split: ',' | uniq %}
+<!-- {% assign portfolio =  site.portfolio | map: 'tags' | join: ','  | split: ',' | uniq %}
 {% for tag in portfolio %}
 {% assign portfolio_tags = tag | join: '|' | append: '|' %}
 {% assign rawtags = rawtags | append: portfolio_tags %}
-{% endfor %}
+{% endfor %} -->
 
 <!-- cycles through pages to get tags -->
 {% for page in site.pages %}

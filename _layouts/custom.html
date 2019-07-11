@@ -11,9 +11,6 @@ layout: default
   </header>
   <section class="post-content">{{ content }}</section>
   
-  <div style="display: inline-block;">
-  <!-- Social media shares -->
-  {% include share_buttons.html %}
    
    <!-- Tag list -->
   {% capture tag_list %}{{ page.tags | join: "|"}}{% endcapture %}
