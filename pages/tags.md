@@ -1,5 +1,5 @@
 ---
-layout: 标签
+layout: tags
 title: 标签
 permalink: /tags/
 feature-img: "/assets/img/pexels/TagesHeader.jpg"
